@@ -18,7 +18,6 @@ class СardOrderTest {
     @BeforeAll
     static void setUp1() {
         WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "C:\\work\\AutoQA\\hwSelenium\\driver\\win\\chromedriver.exe");
     }
 
     @BeforeEach
